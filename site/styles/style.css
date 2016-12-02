@@ -1,0 +1,228 @@
+body {
+	font-family: Cambria Math;
+}
+
+
+#options {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 60px;
+	height: 60px;
+}
+
+
+* {
+	font-family: Cambria Math;
+}
+
+#input {
+	width: 100%;
+	height: 100px;
+	margin-top: 25%;
+	text-align: center;
+	font-family: Cambria Math;
+	font-style: italic;
+	border: none;
+	outline: none;
+}
+
+#current {
+	position: fixed;
+	font-family: Cambria Math;
+	font-size: 185%;
+	width: 100%;
+	left: 0%;
+	bottom: 22px;
+	text-align: center;
+}
+
+#output {
+	width: 90%;
+	height: 100px;
+	margin-left: 5%;
+	margin-top: 10%;
+	text-align: center;
+	font-family: Cambria Math;
+	font-style: italic;
+	border: none;
+	outline: none;
+	display: block;
+}
+
+#line {
+	background-color: black;
+	height: 1px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#left {
+	position: fixed;
+	left: 38%;
+	bottom: 26px;
+	height: 30px;
+}
+
+#right {
+	position: fixed;
+	right: 38.5%;
+	bottom: 26px;
+	height: 30px;
+}
+
+@media (min-width: 412px) {
+	#input {
+		font-size: 610%;
+	}
+	#output {
+		font-size: 610%;
+	}
+	#left {
+		left: 38%;
+		bottom: 26px;
+	}
+	#right {
+		right: 38%;
+		bottom: 26px;
+	}
+	#current {
+		font-size: 185%;
+	}
+}
+
+@media (max-width: 910px) {
+	#left {
+		left: 35%;
+		bottom: 26px;
+	}
+	#right {
+		right: 35%;
+		bottom: 26px;
+	}
+}
+
+@media (max-width: 760px) {
+	#left {
+		left: 33%;
+		bottom: 26px;
+	}
+	#right {
+		right: 33%;
+		bottom: 26px;
+	}
+}
+
+@media (max-width: 650px) {
+	#left {
+		left: 31%;
+		bottom: 26px;
+	}
+	#right {
+		right: 31%;
+		bottom: 26px;
+	}
+}
+
+@media (max-width: 590px) {
+	#left {
+		left: 29%;
+		bottom: 26px;
+	}
+	#right {
+		right: 29%;
+		bottom: 26px;
+	}
+}
+
+@media (max-width: 530px) {
+	#left {
+		left: 25%;
+		bottom: 26px;
+	}
+	#right {
+		right: 25%;
+		bottom: 26px;
+	}
+}
+
+@media (max-width: 440px) {
+	#left {
+		left: 22%;
+		bottom: 26px;
+	}
+	#right {
+		right: 22%;
+		bottom: 26px;
+	}
+}
+
+@media (max-width: 411px) {
+	#input {
+		font-size: 450%;
+	}
+	#output {
+		font-size: 450%;
+	}
+	#left {
+		left: 21%;
+		bottom: 26px;
+	}
+	#right {
+		right: 21%;
+		bottom: 26px;
+	}
+	#current {
+		font-size: 140%;
+		bottom: 27px;
+	}
+}
+@media (max-width: 300px) {
+	#input {
+		font-size: 350%;
+	}
+	#output {
+		font-size: 350%;
+	}
+	#left {
+		left: 15%;
+		bottom: 26px;
+	}
+	#right {
+		right: 15%;
+		bottom: 26px;
+	}
+	#current {
+		font-size: 130%;
+		bottom: 28px;
+	}
+}
+@media (max-width: 229px) {
+	#input {
+		font-size: 250%;
+	}
+	#output {
+		font-size: 250%;
+	}
+	#left {
+		left: 10%;
+		bottom: 26px;
+	}
+	#right {
+		right: 10%;
+		bottom: 26px;
+	}
+	#current {
+		font-size: 100%;
+	}
+}
+
+@media (max-height: 499px) {
+	#input {
+		margin-top: 10%;
+		font-size: 250%;
+	}
+	#output {
+		font-size: 250%;
+	}
+}

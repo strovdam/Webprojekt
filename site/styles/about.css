@@ -1,0 +1,55 @@
+p {
+	font-family: Cambria Math;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: Cambria Math;
+	font-size: 25px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Cambria Math;
+}
+
+#text {
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#information {
+	float: clear;
+	position: fixed;
+	bottom: 35px;
+	left: 35px;
+}
+
+#inputsLeft {
+	float: left;
+	margin-top: 100px;
+	padding-left: 5%;
+	width:45%;
+	font-family: Cambria Math;
+	font-size: 25px;
+	text-align: left;	
+}
+
+#inputsRight {
+	width: 45%;
+	margin-top: 100px;
+	padding-right: 5%;
+	font-family: Cambria Math;
+	font-size: 25px;
+	text-align: right;	
+	float: left;
+}
+
+#back {
+	margin-top: 400px;
+	text-align: center;
+	width: 100%;
+}

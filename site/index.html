@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/options.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<script type="text/javascript" src="js/code.js"></script>
+		<script type="text/javascript" src="js/ui.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body onload="init()">
+		<img id="options" src="graphics/gears.png" onmousedown="showOptions()">
+		<input id="input" type="text" value="0 = x" onkeypress="setFontSize()">
+		<div id="line"></div>
+		<output id="output" type="text" for="input">x = { 0 }</output>
+		
+		<div id="current">Solving Mode</div>
+		<a href="inte.html"><img id="left" src="graphics/leftArrow.png"></a>
+		<a href="diff.html"><img id="right" src="graphics/rightArrow.png"></a>
+		
+		<div id="optionBox">
+			<label>Live-Calc</label><input type="checkbox" id="liveCalc" checked="true"></input><br>
+			<label>Start X</label><input type="text" value="0" id="startX"></input><br>
+			<label>Delta X</label><input type="text" value="0" id="deltaX"></input>
+			<div id="optionLine"></div>
+			<a href="about.html" id="aboutLink">About Us</div>
+		<div>
+	</body>
+
+
+</html>
