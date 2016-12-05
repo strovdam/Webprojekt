@@ -5,8 +5,9 @@
 		<script type="text/javascript" src="js/code.js"></script>
 		<script type="text/javascript" src="js/ui.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>INDISO - Differential</title>
 	</head>
-	<body>
+	<body onload="initDiff()">
 		<img id="options" src="graphics/gears.png" onmousedown="showOptions()">
 		<input id="input" type="text" value="y = x">
 		<div id="line"></div>
@@ -17,9 +18,7 @@
 		<a href="inte.html"><img id="right" src="graphics/rightArrow.png"></a>
 		
 		<div id="optionBox">
-			<label>Live-Calc</label><input type="checkbox" id="liveCalc" checked="true"></input><br>
 			<label>Start X</label><input type="text" value="0" id="startX"></input><br>
-			<label>Delta X</label><input type="text" value="0" id="deltaX"></input>
 			<div id="optionLine"></div>
 			<a href="about.html" id="aboutLink">About Us</div>
 		<div>

@@ -1,0 +1,16 @@
+Meilenstein 1: UI
+	- Nach Anpassungen wegen kleiner Fehler auf Ausnahmegerätegrößen fehlerfrei verlaufen
+Meilenstein 2: Funktionalität
+	- Die Gleichungen funktionieren großteils einwandfrei
+	- Gleichungen ab Grad drei geben im Gegensatz zur Vorgabe nur einen Wert zurück
+		o Dies liegt am Annäherungsalgorithmus und war ein Denkfehler in der Entwurfsphase, demnach wird die Ungleichheit nicht gelöst.
+	- Beim Differenzieren von Funktionen wurden Funktionalitäten aus dem Entwurf aufgrund von Zeitmangel nicht eingebaut:
+		o Differenzieren von Produkten
+		o Differenzieren von Potenzen mit einer Basis ungleich x
+	- Bei der Berechnung des Integrals fallen dieselben Funktionalitäten weg.
+	- Zusätzlich wird "+ C" als Konstante hinzugefügt, was in der Entwufphase vergessen wurde.
+Meilenstein 3: Verbindung von UI und Funktionalität
+	- Es fallen keine größeren Fehler auf
+	- Die "Live-Calc" Checkbox muss aus Zeitgründen entfernt werden
+		o Somit werden Berechnungen nun immer live durchgeführt
+	- Das "Delta-X" Textfeld wird entfernt, da es für den optimierten Bruteforce-Algorithmus nicht mehr benötigt wird.
